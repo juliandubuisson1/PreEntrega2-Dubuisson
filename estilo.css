@@ -306,8 +306,32 @@ iframe{
 }
 
 .nosotros__grid__texto{
-    color:white
+    color:white;
+    font-size: 1.5rem;
 }
+
+@media (max-width:768px ) {
+    .nosotros__grid{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    .grid__imagen{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .nosotros__grid__texto{
+        text-align: center;
+    }
+
+    .imagen_barco{
+        height: 50%;
+    }
+}
+
+
+
+
 
 
 /*FOOTER*/
