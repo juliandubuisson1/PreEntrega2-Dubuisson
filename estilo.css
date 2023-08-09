@@ -243,10 +243,21 @@ iframe{
     padding: 1rem;
 }
 
+.descripcion__formulario{
+    text-align: center;
+    color: var(--colorPrincipal);
+}
 
+.descripcion__formulario h1{
+    font-family: var(--titulo);
+}
 
-
-
+.descripcion__formulario p{
+    font-family: var(--parrafo);
+    font-size: 1.5rem;
+    color: var(--negro);
+    margin-bottom: 2rem;
+}
 /*SOBRE NOSOTROS*/
 
 .carousel-control-prev-icon,
