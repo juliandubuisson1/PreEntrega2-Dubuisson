@@ -117,11 +117,11 @@ strong{
     justify-content: center;
 }
 .videos__descripcion{
-     display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 5rem;
-        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -136,8 +136,6 @@ strong{
     width: 100%;
     
 }
-
-
 
 
 /*IMAGENES PRODUCTOS/BARCOS */
@@ -259,13 +257,15 @@ iframe{
 
 .imagen_barco{
     margin: 0 auto;
-    height: 50rem;
+    height: 60rem;
     padding-bottom: 2rem;
 }
 
 .nosotros__texto{
     font-family: var(--parrafo);
     font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
 }
 
 .nosotros__grid{
