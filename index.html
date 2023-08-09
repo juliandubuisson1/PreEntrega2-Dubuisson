@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Segue</title>
-    <link href="./index.css" rel="stylesheet">
+    <link href="./estilo.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Istok+Web&family=Pavanam&display=swap" rel="stylesheet">
@@ -14,54 +14,45 @@
 </head>
 <body>
     
-    <header class="header">
-        
-        <div class="barra">
-            <a href="index.html" class="logo">
-                <img class="logo" src="./img/logo.png" alt="logo segue">
-            </a>
+    <header class="barra">
 
-            <nav class="navegacion">
-
-                <a href="./contacto.html" class="navegacion__enlace">Contacto</a>
+        <a href="index.html" class="logo">
+            <img class="logo" src="./img/logo.png" alt="logo segue">
+        </a>
+        <nav>
+            <ul class="navegacion">
+                <li><a href="./pages/contacto.html" class="navegacion__enlace">Contacto</a></li>
                     
-                <a href="./nosotros.html" class="navegacion__enlace">Nosotros</a>            
+                <li><a href="./pages/nosotros.html" class="navegacion__enlace">Nosotros</a>   </li>         
         
-                <a href="./barcos.html" class="navegacion__enlace">Barcos</a>
+                <li><a href="./pages/barcos.html" class="navegacion__enlace">Barcos</a></li>
                    
-                <a href="./noticias.html" class="navegacion__enlace">Noticias</a>
+                <li><a href="./pages/noticias.html" class="navegacion__enlace">Noticias</a></li>
+            </ul>
+        </nav>
 
-            </nav>
-        </div>
-        
-        
     </header>
 
     <main class="inicio">
 
         <section class="descripcion__incio">
-            <div class="descripcion__parrafo">
-                
+            <p class="descripcion__parrafo">
                 El <strong>Astillero Naval Segue</strong> es una empresa de construcción y reparación de barcos con sede en el puerto de San Fernando, Buenos Aires. La empresa fue fundada en 1880 y cuenta con una amplia experiencia en el sector naval. 
                 <br><br>
                 Contamos con un equipo altamente cualificado y una amplia gama de equipos y maquinaria, lo que le permite construir y reparar barcos de todo tipo. 
                 <br><br>
                 La empresa está ubicada en una zona privilegiada, lo que le permite acceder a una gran variedad de materiales y servicios. Somos referentes en el sector naval y ofrece a sus clientes un servicio de calidad y excelencia.
-            </div>
+            </p>
 
-            <div class="descripcion__imagen">
-                <img class="descripcion__imagen2" src="./img/img_1.jpg" alt="segue imagen">
-            </div>
+                <img class="descripcion__imagen" src="./img/img_1.jpg" alt="segue imagen">
         </section>
 
         <section class="videos__descripcion">
-            <div class="videos__descripcion__1">
+            
                 <iframe class="video" src="https://www.youtube.com/embed/q5W_5LZ2YSU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-
-            <div>
+           
                 <iframe class="video" src="https://www.youtube.com/embed/5UtAArnwbCY?controls=0" title="YouTube video player" frameborder=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+            
         </section>
 
     </main>
@@ -69,39 +60,24 @@
 
     <footer class="footer"> 
         <div class="informacion">
-                <iframe class="direccion" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13163.051305052495!2d-58.5589838!3d-34.4327791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca57ebc500469%3A0xec68d0217312e9a5!2sAstilleros%20Segue%20Sa!5e0!3m2!1ses-419!2sar!4v1688401724576!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="direccion" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13163.051305052495!2d-58.5589838!3d-34.4327791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca57ebc500469%3A0xec68d0217312e9a5!2sAstilleros%20Segue%20Sa!5e0!3m2!1ses-419!2sar!4v1688401724576!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="32" height="32" viewBox="0 0 24 24" stroke-width="2.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
-                        <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
-                      </svg>
-                      <p>+54-011-12345678</p>
-                
-
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="32" height="32" viewBox="0 0 24 24" stroke-width="2.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
-                        <path d="M3 7l9 6l9 -6" />
-                      </svg>
-
-                      <p>segue<br>@gmail.com</p>
-                
-
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="32" height="32" viewBox="0 0 24 24" stroke-width="2.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                      </svg>
-                      <p>4123-3214</p>
-                
-                
-        </div>
+            <div class="informacion__contacto">
+                <img src="./img/whatsapp.svg" alt="logo whatsapp">
+                <p>+54-011-12345678</p>
+            </div>
+            <div class="informacion__contacto">
+                <img src="./img/gmail.svg" alt="logo mail">
+                <p>segue<br>@gmail.com</p>
+            </div>   
+            <div class="informacion__contacto">
+                <img src="./img/telefono.svg" alt="logo telefono">
+                <p>4123-3214</p> 
+            </div>        
+        </div>  
+       
+        <p class="derechos">Derechos reservados - Astillero Segue A.S</p>
         
-        <div>
-            <p class="derechos">Derechos reservados - Astillero Segue A.S</p>
-        </div>
     </footer> 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
