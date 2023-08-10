@@ -122,6 +122,7 @@ strong{
     align-items: center;
     gap: 5rem;
     margin-top: 2rem;
+
 }
 
 @media (max-width: 768px) {
@@ -129,12 +130,12 @@ strong{
     display: grid;
     grid-template-columns: repeat(1, auto);
     gap: 2rem;
+    margin: 0 auto;
     }
 }
 
 .video{
-    width: 100%;
-    
+    width: 100%;  
 }
 
 
@@ -211,9 +212,6 @@ iframe{
     padding-top: 3rem;
 }
 
- 
-
-
 
 /*NOTICIAS*/
 
@@ -232,8 +230,6 @@ iframe{
 .img_noticia{
     width: 50%;
 }
-
-
 
 /*CONTACTO*/
 
@@ -328,11 +324,6 @@ iframe{
         height: 50%;
     }
 }
-
-
-
-
-
 
 /*FOOTER*/
 
