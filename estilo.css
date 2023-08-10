@@ -215,20 +215,42 @@ iframe{
 
 /*NOTICIAS*/
 
-.contenedor_noticia{
-    max-width: 120rem;
-    margin: 0 auto;
-}
-
-.grid{
+.contenedor__noticia{
     display: grid;
-        grid-template-columns: repeat(2, 1fr); /*las remeras se colocan dos elementos de 2 columnas*/
-        gap: 2rem;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
 }
 
+.noticia{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.info__noticia{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+
+}
 
 .img_noticia{
-    width: 50%;
+    width: 70%;
+}
+
+@media (max-width:768px ) {
+    .contenedor__noticia{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .img_noticia{
+        width: 100%;
+    }
+   
 }
 
 /*CONTACTO*/
