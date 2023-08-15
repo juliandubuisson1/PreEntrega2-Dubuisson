@@ -1,0 +1,28 @@
+.formu{
+    margin: 2rem;
+    .descripcion__formulario{
+        text-align: center;
+        color: var(--colorPrincipal);
+    h1{
+        font-family: var(--titulo);
+    }
+    p{
+        font-family: var(--parrafo);
+        font-size: 1.5rem;
+        color: var(--negro);
+        margin-bottom: 2rem;
+    }
+    }
+    .formulario{
+        background-color: var(--colorTerciario);
+        padding: 1rem;
+    }
+}
+@media (min-width: 768px) {
+    .formulario{
+    width: 500px;
+    margin: 0 auto;
+    background-color: var(--colorTerciario);
+    padding: 1rem;
+    }
+}

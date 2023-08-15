@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 2rem;
+    background-color: var(--colorTerciario);
+    width: 100%;
+    .informacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include tablet{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.1rem;
+        }  
+    .direccion{
+        width: 40rem;
+        height: 15rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        @include tablet{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    .informacion__contacto{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin: 0 auto;
+    }
+    }
+    .derechos{
+        font-family: var(--parrafo);
+        margin-left: 1rem;
+        color:var(--negro);
+        font-weight: bolder;
+    }
+}

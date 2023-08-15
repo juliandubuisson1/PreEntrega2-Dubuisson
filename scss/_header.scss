@@ -1,0 +1,40 @@
+.barra{
+    background-color: var(--colorTerciario);
+    min-height: 125px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include tablet{
+        flex-direction: column;
+    }
+
+    .navegacion{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 2rem;
+        gap: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: var(--h1);
+
+        @include tablet{
+            display: block;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            row-gap: 0.5rem;
+        }
+
+    .navegacion__enlace{
+        text-decoration: none;
+        color: #000;
+        &:hover{
+            background-color: var(--blanco);
+        } 
+    }
+    }     
+}
+
