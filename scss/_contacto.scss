@@ -16,13 +16,11 @@
     .formulario{
         background-color: var(--colorTerciario);
         padding: 1rem;
-    }
-}
-@media (min-width: 768px) {
-    .formulario{
-    width: 500px;
-    margin: 0 auto;
-    background-color: var(--colorTerciario);
-    padding: 1rem;
+        @include tablet_min{
+            width: 500px;
+            margin: 0 auto;
+            background-color: var(--colorTerciario);
+            padding: 1rem;
+        }
     }
 }

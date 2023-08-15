@@ -1,0 +1,50 @@
+.nosotros{
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon{
+    background-color: #000;
+    color: #000;
+    }
+    .imagen_barco{
+        margin: 0 auto;
+        height: 60rem;
+        padding-bottom: 2rem;
+        @include tablet{
+            height: 50%;
+        }
+    }
+    .nosotros__texto{
+        font-family: var(--parrafo);
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .nosotros__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        background-color: #05036d;
+        padding: 2rem;
+        margin: 0.5rem;
+        @include tablet{
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+        }
+    }
+    .grid__imagen{
+        width: 50%;
+        @include tablet{
+            display: block;
+            margin: 0 auto;
+        }  
+    }
+    .nosotros__grid__texto{
+        color:white;
+        font-size: 1.5rem;
+        @include tablet{
+            text-align: center;
+        }
+    }
+    
+}
