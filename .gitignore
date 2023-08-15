@@ -2,4 +2,4 @@
 /Wireframe
 package.json
 package-lock.json
-/img
+.gitignore

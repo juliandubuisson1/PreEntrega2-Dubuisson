@@ -178,7 +178,10 @@
 .contenedor__barco {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem; }
+  gap: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 2rem; }
   @media screen and (max-width: 768px) {
     .contenedor__barco {
       display: grid;
