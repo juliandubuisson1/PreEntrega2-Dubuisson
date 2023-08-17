@@ -41,8 +41,7 @@
         row-gap: 0.5rem; } }
     .barra .navegacion .navegacion__enlace {
       text-decoration: none;
-      color: #000;
-      transition: all 300ms; }
+      color: #000; }
       .barra .navegacion .navegacion__enlace:hover {
         background-color: var(--blanco); }
 
@@ -280,7 +279,10 @@
     border: 0.5px black dashed;
     background-color: #05036d;
     border-radius: 2rem;
-    padding: 1rem; }
+    padding: 1rem;
+    transition: all 320ms; }
+    .contenedor__noticia .noticia:hover {
+      transform: scale(1.15); }
     .contenedor__noticia .noticia .info__noticia {
       font-family: 'Times New Roman', Times, serif;
       color: #000;

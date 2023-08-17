@@ -18,6 +18,10 @@
         background-color: #05036d;
         border-radius: 2rem;
         padding:1rem;
+        transition: all 320ms;
+        &:hover{
+            transform: scale(1.15);
+        }
         .info__noticia{
             font-family: 'Times New Roman', Times, serif;
             color: #000;
