@@ -13,7 +13,7 @@
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 2rem;
-        margin-top: 0rem;  
+        margin-top: 0rem;
     }
     }
 
@@ -32,14 +32,13 @@
         background-color: var(--colorSecundario);
         padding: 1rem;
         border-radius: 2rem;
-    .barco__video{
-        height: 434px;
-        width: 652px;
-        border-radius: 2rem;
         @include tablet{
-            width: auto;
-            height: auto;
+            margin: 1rem;
         }
+    .barco__video{
+        height:434px;
+        width: 100%;
+        border-radius: 2rem;
     }
     .barco__imagen{
         width: 100%;

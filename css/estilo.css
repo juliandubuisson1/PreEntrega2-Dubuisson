@@ -252,14 +252,13 @@
     background-color: var(--colorSecundario);
     padding: 1rem;
     border-radius: 2rem; }
+    @media screen and (max-width: 768px) {
+      .contenedor__barco .barco {
+        margin: 1rem; } }
     .contenedor__barco .barco .barco__video {
       height: 434px;
-      width: 652px;
+      width: 100%;
       border-radius: 2rem; }
-      @media screen and (max-width: 768px) {
-        .contenedor__barco .barco .barco__video {
-          width: auto;
-          height: auto; } }
     .contenedor__barco .barco .barco__imagen {
       width: 100%;
       border-radius: 2rem; }
