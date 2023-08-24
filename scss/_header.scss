@@ -8,7 +8,6 @@
     @include tablet{
         flex-direction: column;
     }
-
     .navegacion{
         display: flex;
         align-items: center;
@@ -19,25 +18,31 @@
         font-weight: bold;
         text-transform: uppercase;
         font-family: var(--h1);
-        transition: all 300ms;
-        &:hover{
-            transform: scale(1.15);
-        }
         @include tablet{
             display: block;
             text-align: center;
             align-items: center;
             justify-content: center;
             row-gap: 0.5rem;
+        }   
+        .navegacion__enlace{
+            text-decoration: none;
+            color: #000;
+            &:hover{
+                background-color: var(--blanco);
+            }
         }
-
-    .navegacion__enlace{
-        text-decoration: none;
-        color: #000;
-        &:hover{
-            background-color: var(--blanco);
+        li{
+            transition: all 300ms;
+            &:hover{
+                transform: scale(1.15);
+            }
         }
-    }
-    }     
+        }     
 }
 
+
+        /*transition: all 300ms;
+        &:hover{
+            transform: scale(1.15);
+        }*/
