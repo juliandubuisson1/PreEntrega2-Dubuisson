@@ -5,10 +5,7 @@
     max-width: 1000px;
     margin: 0 auto;
     @include tablet{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        margin: 0 auto;
+        padding: 1rem;
     }
     .noticia{
         justify-content: center;
@@ -20,7 +17,10 @@
         padding:1rem;
         transition: all 320ms;
         &:hover{
-            transform: scale(1.15);
+            transform: scale(1.1);
+        }
+        @include tablet{
+            transform: none;
         }
         .info__noticia{
             font-family: 'Times New Roman', Times, serif;
@@ -29,6 +29,9 @@
             margin-top: 2rem;
             text-transform: uppercase;
             color: #fff;
+            @include tablet{
+                font-size: 1.5rem;
+            }
     }
     .img_noticia{
         width: 50%;
