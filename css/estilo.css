@@ -311,53 +311,6 @@
         .contenedor__noticia .noticia .img_noticia {
           width: 100%; } }
 
-/*.footer{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    gap: 5rem;
-    margin: 0 auto;
-    margin-top: 3rem;
-    background-color: var(--colorTerciario);
-    @include tablet{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.1rem;
-        justify-content: center;
-    }
-    .direccion{
-        width: 30rem;
-        height: 15rem;
-        margin: 1rem 2rem;
-        @include tablet{
-            width: 100%;
-            margin: 0 auto;
-            padding: 1rem;
-        }
-    }
-    .logo__footer{
-    display: block;
-    margin: none;
-    justify-content: center;
-    align-items: center;
-    @include tablet{
-        width: 100%;
-        justify-content: center;
-    }
-    }
-    .informacion__contacto{
-        font-weight: bolder;
-        display: flex;
-        align-items: center;
-        padding: 1rem;
-        gap: 0.5rem;
-        padding-right:2rem ;
-        @include tablet{
-            width: 100%;
-            justify-content: center;
-        }
-    }
-}*/
 .footer {
   display: flex;
   justify-content: space-between;
