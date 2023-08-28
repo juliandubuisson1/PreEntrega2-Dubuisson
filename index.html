@@ -20,17 +20,33 @@
         <a href="index.html" class="logo">
             <img class="logo" src="./img/logo.png" alt="logo segue">
         </a>
-        <nav>
-            <ul class="navegacion">
-                <li><a href="./pages/contacto.html" class="navegacion__enlace">Contacto</a></li>
-                    
-                <li><a href="./pages/nosotros.html" class="navegacion__enlace">Nosotros</a>   </li>         
-        
-                <li><a href="./pages/barcos.html" class="navegacion__enlace">Barcos</a></li>
-                   
-                <li><a href="./pages/noticias.html" class="navegacion__enlace">Noticias</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navegacion">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="navegacion__enlace">
+                    <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                  <li class="navegacion__enlace">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="navegacion__enlace">
+                    <a class="nav-link" href="./pages/barcos.html">
+                        Barcos
+                    </a>
+                  </li>
+                  <li class="navegacion__enlace">
+                    <a class="nav-link" href="./pages/noticias.html">
+                        Noticias
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main class="inicio">
@@ -45,8 +61,7 @@
             <img class="descripcion__imagen" src="./img/img_1.jpg" alt="segue imagen">
         </section>
         <section class="videos__descripcion">         
-            <iframe class="video" src="https://www.youtube.com/embed/q5W_5LZ2YSU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-           
+            <iframe class="video" src="https://www.youtube.com/embed/q5W_5LZ2YSU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>           
             <iframe class="video" src="https://www.youtube.com/embed/5UtAArnwbCY?controls=0" title="YouTube video player" frameborder=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          
         </section>
     </main>

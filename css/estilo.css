@@ -38,7 +38,8 @@
         row-gap: 0.5rem; } }
     .barra .navegacion .navegacion__enlace {
       text-decoration: none;
-      color: #000; }
+      color: #000;
+      padding: 0 1rem; }
       .barra .navegacion .navegacion__enlace:hover {
         background-color: var(--blanco); }
     .barra .navegacion li {
@@ -125,7 +126,8 @@
 
 .nosotros .imagen_barco {
   margin: 0 auto;
-  height: 60rem;
+  height: 40rem;
+  width: 70rem;
   padding-bottom: 2rem; }
   @media screen and (max-width: 768px) {
     .nosotros .imagen_barco {
@@ -189,7 +191,7 @@
 
 .nosotros .mision__texto {
   font-family: var(--parrafo);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   max-width: 1000px;
   margin: 0 auto; }
 
@@ -243,7 +245,8 @@
   gap: 1rem;
   max-width: 1400px;
   margin: 0 auto;
-  gap: 2rem; }
+  gap: 2rem;
+  padding: 1rem; }
   @media screen and (max-width: 768px) {
     .contenedor__barco {
       display: grid;

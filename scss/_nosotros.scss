@@ -6,7 +6,8 @@
     }
     .imagen_barco{
         margin: 0 auto;
-        height: 60rem;
+        height: 40rem;
+        width: 70rem;       
         padding-bottom: 2rem;
         @include tablet{
             height: 50%;
@@ -74,7 +75,7 @@
         }
         .mision__texto{
             font-family: var(--parrafo);
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             max-width: 1000px;
             margin: 0 auto;
         }
