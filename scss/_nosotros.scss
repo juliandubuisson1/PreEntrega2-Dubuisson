@@ -14,7 +14,7 @@
         }
     }
     .nosotros__texto{
-        font-family: var(--parrafo);
+        font-family: $parrafo;
         font-size: 1.5rem;
         text-align: center;
         padding: 1rem;
@@ -64,24 +64,24 @@
         margin: 0 auto;
         margin-top: 2rem;
         strong{
-            color: var(--colorPrincipal);
+            color:$colorPrincipal;
             font-weight: bolder;
         }
         .mision__titulo{
-            font-family: var(--titulo);
+            font-family: $titulo;
             font-size: 3rem;
             font-weight: bolder;
             color: #000};
         }
         .mision__texto{
-            font-family: var(--parrafo);
+            font-family: $parrafo;
             font-size: 1.8rem;
             max-width: 1000px;
             margin: 0 auto;
         }
         .valores__titulo{
             text-align: center;
-            font-family: var(--titulo);
+            font-family: $titulo;
             font-size: 3rem;
             font-weight: bolder;
             color: #000;
@@ -101,7 +101,7 @@
             }
             .valor{
                 text-align: center;
-                font-family: var(--parrafo);
+                font-family: $parrafo;
                 font-size: 1.5rem;
                 font-weight: bold;
             }

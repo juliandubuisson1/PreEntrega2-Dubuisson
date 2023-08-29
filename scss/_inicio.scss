@@ -14,7 +14,7 @@
             justify-content: center;
         }
     .descripcion__parrafo{
-        font-family: var(--parrafo);
+        font-family: $parrafo;
         font-weight: 200;
         font-size: 1.5rem;
         text-align: justify;
@@ -22,7 +22,7 @@
             text-align: center;
         }
     strong{
-        color: var(--colorPrincipal);
+        color: $colorPrincipal;
         font-weight: bolder; 
     }
     }

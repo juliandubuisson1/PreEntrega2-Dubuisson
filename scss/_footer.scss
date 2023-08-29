@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--colorTerciario);
+    background-color: $colorTerciario;
     margin-top: 3rem;
     @include tablet{
         display: grid;
@@ -55,7 +55,7 @@
             margin: 1rem;
             text-transform: uppercase;
             font-weight: bold;
-            font-family: var(--h1);
+            font-family: $h1;
             font-size: 1.5rem;
         }
         a{
