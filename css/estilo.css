@@ -105,15 +105,59 @@
       font-size: 1.5rem;
       color: var(--negro);
       margin-bottom: 2rem; }
-  .formu .formulario {
-    background-color: var(--colorTerciario);
-    padding: 1rem; }
-    @media screen and (min-width: 768px) {
-      .formu .formulario {
-        width: 500px;
-        margin: 0 auto;
-        background-color: var(--colorTerciario);
-        padding: 1rem; } }
+  .formu .informacion__formulario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; }
+    @media screen and (max-width: 1200px) {
+      .formu .informacion__formulario {
+        display: grid;
+        grid-template-columns: 1fr; } }
+    .formu .informacion__formulario .contacto__formulario {
+      margin: 0 auto; }
+      @media screen and (max-width: 768px) {
+        .formu .informacion__formulario .contacto__formulario {
+          display: grid;
+          grid-template-columns: 1fr;
+          justify-content: center;
+          align-items: center; } }
+      @media screen and (max-width: 768px) {
+        .formu .informacion__formulario .contacto__formulario .mapa {
+          height: 100%;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0.5rem; } }
+      .formu .informacion__formulario .contacto__formulario .contacto__descripcion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        font-family: var(--parrafo); }
+        @media screen and (max-width: 768px) {
+          .formu .informacion__formulario .contacto__formulario .contacto__descripcion .contacto__ubicacion {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center; } }
+    .formu .informacion__formulario .formulario {
+      background-color: var(--colorTerciario);
+      padding: 1rem;
+      border-radius: 2rem;
+      text-transform: uppercase;
+      font-weight: bolder; }
+      @media screen and (min-width: 768px) {
+        .formu .informacion__formulario .formulario {
+          width: 500px;
+          margin: 0 auto;
+          padding: 1rem; } }
+      .formu .informacion__formulario .formulario .consulta {
+        height: 10rem; }
 
 .nosotros .carousel-control-prev-icon,
 .nosotros .carousel-control-next-icon {

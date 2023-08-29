@@ -49,42 +49,59 @@
     </header>
 
     <main class="formu">
-        <div class="descripcion__formulario">
+        <section class="descripcion__formulario">
             <h1>Gracias por ponerte en contacto con nosotros.</h1>
             <p>Estamos a tu disposición para ayudarte. Puedes dirigirte a nosotros a través de: <br> +54-011-12345678 de Lunes a Viernes de 8:00 a 16:00 Hs. o bien enviarnos un mail a segue@gmail.com <br>O si lo prefieres puedes hacerlo a través nuestro formulario, dejanos tus comentarios y te contestaremos lo antes posible.</p>
-        </div>
-        <div class="formulario">
-            <form>
-                <div class="mb-3">
-                    <label for="exampleName" class="from-label">Nombre</label>
-                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nombre">
+        </section>
+        <section class="informacion__formulario">
+            <div class="contacto__formulario">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13163.051305052495!2d-58.5589838!3d-34.4327791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca57ebc500469%3A0xec68d0217312e9a5!2sAstilleros%20Segue%20Sa!5e0!3m2!1ses-419!2sar!4v1693322423081!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="contacto__descripcion">
+                    <img src="../img/gmail.svg" alt="icono mail">
+                    <p>segue@gmail.com</p>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleSurname" class="from-label">Apellido</label>
-                    <input type="text" class="form-control" id="exampleInputSurname1" aria-describedby="surnameHelp" placeholder="Apellido">
+                <div class="contacto__descripcion">
+                    <img src="../img/telefono.svg" alt="icono celular">
+                    <p>+54 11-1234-4321</p>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Mail</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
-                <br>
-                <div class="mb-3">
-                    <label for="exampleName" class="from-label">Celular</label>
-                    <input type="tel" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="+54 11-12345678">
-                </div>        
-                <div class="mb-3">
-                    <label for="exampleName" class="from-label">Consulta</label>
-                    <input type="text" class="form-control consulta" id="exampleInputName1"; aria-describedby="nameHelp">
+                <div class="contacto__descripcion">
+                    <img src="../img/maps.svg" alt="icono maps">
+                    <p class="contacto__ubicacion">Junín 665, San Fernando, Provincia de Buenos Aires</p>
                 </div>
-                <button type="submit" class="btn btn-primary colorBoton1">Enviar</button>
-            </form>
-        </div>
+            </div>
+            <div class="formulario">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleName" class="from-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleSurname" class="from-label">Apellido</label>
+                        <input type="text" class="form-control" id="exampleInputSurname1" aria-describedby="surnameHelp" placeholder="Apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+                    <br>
+                    <div class="mb-3">
+                        <label for="exampleName" class="from-label">Celular</label>
+                        <input type="tel" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="+54 11-12345678">
+                    </div>        
+                    <div class="mb-3">
+                        <label for="exampleName" class="from-label">Consulta</label>
+                        <input type="text" class="form-control consulta" id="exampleInputName1"; aria-describedby="nameHelp">
+                    </div>
+                    <button type="submit" class="btn btn-primary colorBoton1">Enviar</button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
         <div class="informacion__footer">
             <img class="logo__footer" src="../img/logo.png" alt="logo segue">
             <div class="informacion__contacto">
-                <img src="../img/whatsapp.svg" alt="logo whatsapp">
+                <img src="../img/telefono.svg" alt="logo telefono">
                 <p>+54-011-12345678</p> 
             </div>
             <div class="informacion__contacto">
@@ -92,15 +109,15 @@
                 <p>segue@gmail.com</p>
             </div>
             <div class="informacion__contacto">
-                <img src="../img/telefono.svg" alt="logo telefono">
-                <p>4123-3214</p>
+                <img src="../img/maps.svg" alt="logo maps">
+                <p>Junín 665, San Fernando, Provincia de Buenos Aires</p>
             </div>
         </div>
 
         <div class="contacto__footer">
             <h2 class="contactate">Contactate</h2>
             <input type="text" class="form-control full__name" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nombre y Apellido">
-            <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+            <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="segue@gmail.com">
         </div>
 
         <ul class="navegacion__footer">

@@ -13,14 +13,67 @@
         margin-bottom: 2rem;
     }
     }
-    .formulario{
+    .informacion__formulario{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        @include mobile__min{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .contacto__formulario{
+            margin: 0 auto;                
+            @include tablet{
+                display: grid;
+                grid-template-columns: 1fr;
+                justify-content: center;
+                align-items: center;
+            }
+            .mapa{
+                @include tablet{
+                    height: 100%;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0.5rem;
+                }
+            }
+            .contacto__descripcion{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                margin-top: 1rem;
+                font-size: 1.2rem;
+                font-weight: bolder;
+                font-family: var(--parrafo);
+                .contacto__ubicacion{
+                    @include tablet{
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        .formulario{
         background-color: var(--colorTerciario);
         padding: 1rem;
+        border-radius: 2rem;
+        text-transform: uppercase;
+        font-weight: bolder;
         @include tablet_min{
             width: 500px;
             margin: 0 auto;
-            background-color: var(--colorTerciario);
             padding: 1rem;
         }
+        .consulta{
+            height: 10rem;
+        }
+    } 
     }
+
 }
