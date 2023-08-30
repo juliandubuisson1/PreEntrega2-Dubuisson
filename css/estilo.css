@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .barra {
-  background-color: #ade8f4;
+  background-color: #B5B2B2;
   min-height: 125px;
   margin-bottom: 2rem;
   display: flex;
@@ -61,7 +61,7 @@
         .inicio .descripcion__incio .descripcion__parrafo {
           text-align: center; } }
       .inicio .descripcion__incio .descripcion__parrafo strong {
-        color: #05036d;
+        color: #0047AB;
         font-weight: bolder; }
     .inicio .descripcion__incio .descripcion__imagen {
       max-width: 460px;
@@ -87,7 +87,7 @@
   margin: 2rem; }
   .formu .descripcion__formulario {
     text-align: center;
-    color: #05036d; }
+    color: #0047AB; }
     .formu .descripcion__formulario h1 {
       font-family: "Istok Web", sans-serif; }
     .formu .descripcion__formulario p {
@@ -136,7 +136,7 @@
             justify-content: center;
             align-items: center; } }
     .formu .informacion__formulario .formulario {
-      background-color: #ade8f4;
+      background-color: #75c1cf;
       padding: 1rem;
       border-radius: 2rem;
       text-transform: uppercase;
@@ -182,7 +182,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  background-color: #05036d;
+  background-color: #75c1cf;
   padding: 2rem;
   margin: 0.5rem; }
   @media screen and (max-width: 768px) {
@@ -211,7 +211,7 @@
   margin: 0 auto;
   margin-top: 2rem; }
   .nosotros .contenedor_mision strong {
-    color: #05036d;
+    color: #0047AB;
     font-weight: bolder; }
   .nosotros .contenedor_mision .mision__titulo {
     font-family: "Istok Web", sans-serif;
@@ -256,15 +256,14 @@
   text-transform: uppercase;
   font-family: "Pavanam", sans-serif;
   letter-spacing: .8rem;
-  background-color: #05036d;
+  background-color: #0047AB;
   border-radius: .5rem;
   margin: 3rem;
   padding: 1rem;
   text-align: center; }
   @media screen and (max-width: 768px) {
     .nuestros__barcos {
-      width: 100%;
-      justify-content: center;
+      width: 90%;
       margin: 0 auto;
       margin-bottom: 2rem;
       margin-top: 0rem; } }
@@ -282,7 +281,7 @@
       display: grid;
       grid-template-columns: repeat(1, auto); } }
   .contenedor__barco .barco {
-    background-color: #0096c7;
+    background-color: #B5B2B2;
     padding: 1rem;
     border-radius: 2rem; }
     @media screen and (max-width: 768px) {
@@ -298,7 +297,7 @@
     .contenedor__barco .barco .barco__nombre {
       font-size: 4rem;
       text-align: center;
-      color: white; }
+      color: #fff; }
     .contenedor__barco .barco .barco__información {
       font-family: "Pavanam", sans-serif;
       margin: 1rem 0;
@@ -318,8 +317,8 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 2rem;
-    border: 0.5px black dashed;
-    background-color: #05036d;
+    border: 0.5px #000 dashed;
+    background-color: #0047AB;
     border-radius: 2rem;
     padding: 1rem;
     transition: all 320ms; }
@@ -349,7 +348,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ade8f4;
+  background-color: #B5B2B2;
   margin-top: 3rem; }
   @media screen and (max-width: 768px) {
     .footer {

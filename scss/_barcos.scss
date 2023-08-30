@@ -1,5 +1,5 @@
 .nuestros__barcos{
-    color: #fff;
+    color: $blanco;
     text-transform: uppercase;
     font-family:$parrafo;
     letter-spacing: .8rem;
@@ -9,14 +9,12 @@
     padding: 1rem;
     text-align: center;
     @include tablet{
-        width: 100%;
-        justify-content: center;
+        width: 90%;
         margin: 0 auto;
         margin-bottom: 2rem;
         margin-top: 0rem;
     }
     }
-
 .contenedor__barco{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -30,7 +28,7 @@
         grid-template-columns: repeat(1, auto);
     }
     .barco{
-        background-color: $colorSecundario;
+        background-color: $gris;
         padding: 1rem;
         border-radius: 2rem;
         @include tablet{
@@ -47,7 +45,7 @@
     .barco__nombre{
         font-size: 4rem;
         text-align: center;
-        color: white;}
+        color: $blanco;}
     .barco__información{
         font-family:$parrafo;
         margin: 1rem 0;
@@ -55,4 +53,3 @@
         font-size: 1.5rem;}
     }
 }
-

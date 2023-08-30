@@ -1,5 +1,5 @@
 .barra{
-    background-color: $colorTerciario;
+    background-color: $gris;
     min-height: 125px;
     margin-bottom: 2rem;
     display: flex;
@@ -27,7 +27,7 @@
         }   
         .navegacion__enlace{
             text-decoration: none;
-            color: #000;
+            color: $negro;
             padding: 0 1rem;
             &:hover{
                 background-color: $blanco;

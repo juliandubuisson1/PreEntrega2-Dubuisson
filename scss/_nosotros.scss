@@ -1,8 +1,8 @@
 .nosotros{
     .carousel-control-prev-icon,
     .carousel-control-next-icon{
-    background-color: #000;
-    color: #000;
+    background-color: $negro;
+    color: $negro;
     }
     .imagen_barco{
         margin: 0 auto;
@@ -32,7 +32,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
-        background-color: #05036d;
+        background-color: $colorSecundario;
         padding: 2rem;
         margin: 0.5rem;
         @include tablet{
@@ -71,7 +71,7 @@
             font-family: $titulo;
             font-size: 3rem;
             font-weight: bolder;
-            color: #000};
+            color: $negro};
         }
         .mision__texto{
             font-family: $parrafo;
@@ -84,7 +84,7 @@
             font-family: $titulo;
             font-size: 3rem;
             font-weight: bolder;
-            color: #000;
+            color: $negro;
             margin-top: 2rem;
         }
         .contenedor_valores{
