@@ -14,7 +14,10 @@
         margin-left: 5rem;
         @include tablet{
             display: block;
+            text-align: center;
             margin: 0 auto;
+            justify-content: center;
+            align-items: center;
         }
         .informacion__contacto{
             display: flex;
@@ -47,9 +50,6 @@
         align-items: center;
         list-style: none;
         @include tablet{
-            display: grid;
-            justify-content: center;
-            align-items: center;
         }
         .navegacion__enlace{
             margin: 1rem;

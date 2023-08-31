@@ -224,6 +224,10 @@
   font-size: 1.8rem;
   max-width: 1000px;
   margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    .nosotros .mision__texto {
+      padding: 1rem;
+      font-size: 1.5rem; } }
 
 .nosotros .valores__titulo {
   text-align: center;
@@ -361,7 +365,10 @@
     @media screen and (max-width: 768px) {
       .footer .informacion__footer {
         display: block;
-        margin: 0 auto; } }
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center; } }
     .footer .informacion__footer .informacion__contacto {
       display: flex;
       margin: 1.5rem;
@@ -387,11 +394,6 @@
     justify-content: center;
     align-items: center;
     list-style: none; }
-    @media screen and (max-width: 768px) {
-      .footer .navegacion__footer {
-        display: grid;
-        justify-content: center;
-        align-items: center; } }
     .footer .navegacion__footer .navegacion__enlace {
       margin: 1rem;
       text-transform: uppercase;
